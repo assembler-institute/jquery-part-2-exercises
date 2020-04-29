@@ -1,7 +1,7 @@
 {
-  "name": "jquery-part-1-css-animate-pill",
+  "name": "jquery-part-2-css-animate-pill",
   "version": "1.0.0",
-  "description": "jquery-part-1-css-animate-pill",
+  "description": "jquery-part-2-css-animate-pill",
   "author": "Dani Lucaci <dani@assemblerschool.com>",
   "scripts": {
     "test": "jest --watchAll",
