@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Assembler School jQuery Intro</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <script defer src="./19-exercise.js"></script>
+    <style>
+      .ex-wrapper {
+        margin-bottom: 40px;
+      }
+
+      .img {
+        display: block;
+        border-radius: 8px;
+        width: 200px;
+        height: 200px;
+        margin-bottom: 16px;
+        border: 1px solid lightgrey;
+        border-radius: 4px;
+      }
+
+      .mb {
+        margin-bottom: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <ul class="list">
+        <li class="list-item">
+          <a href="../../index.html">Home</a>
+        </li>
+      </ul>
+    </header>
+    <div>
+      <h1>Instructions</h1>
+      <p>
+        Use several jQuery <code>animate()</code> methods to animate the
+        <code>.img</code> element when the button is clicked.
+      </p>
+      <p>
+        The <code>animate()</code> method can be <code>chained</code> to execute
+        several <code>animate()</code> methods one after the other.
+      </p>
+      <p><code>animate(options).animate(options).animate(options)...</code></p>
+      <p>Add the following animations in the order they appear. (width then height then padding)</p>
+      <ul>
+        <li>
+          Animation 1:<code>width: 24em</code>, duration: <code>1200ms</code>
+        </li>
+        <li>
+          Animation 2:<code>height: 16em</code>, duration: <code>100ms</code>
+        </li>
+        <li>
+          Animation 3:<code>padding: 2em</code>, duration: <code>1000ms</code>
+        </li>
+      </ul>
+      <p>
+        You should also add a last parameter to the
+        <code>animate()</code> method that is a callback function which will be
+        executed when each animation ends.
+      </p>
+      <p>
+        In the function you should create a new <code>p</code> element that has
+        a text content of <code>Finished animating: animation value</code>.
+        The <code>"animation value"</code> would be the animation value you had
+        to animate in each <code>animate()</code> function.
+      </p>
+      <p>Append each <code>p</code> element as the last child of the <code>.ex-wrapper</code> div element.</p>
+      <p>
+        <strong>Example:</strong>
+      </p>
+      <p>
+<pre>
+<code>
+$("#book")
+.animate({ opacity: 0.5 }, 200, function () {
+  // Create and add element to the DOM
+})
+.animate({ padding: "20px" }, 200, function () {
+  // Create and add element to the DOM
+});
+</code>
+</pre>
+      </p>
+      <p>
+        Creates a <code>p</code> element:
+        <code> &lt;p&gt;Finished animating: opacity&lt;/p&gt;</code>
+      </p>
+      <p>
+        Creates a <code>p</code> element:
+        <code> &lt;p&gt;Finished animating: padding&lt;/p&gt;</code>
+      </p>
+    </div>
+    <div>
+      <hr />
+      <div class="ex-wrapper">
+        <button class="mb">Animate image</button>
+        <img src="../img/img.jpeg" class="img" />
+      </div>
+    </div>
+  </body>
+</html>

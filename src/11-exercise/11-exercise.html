@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Assembler School jQuery Intro</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <script defer src="./11-exercise.js"></script>
+    <style>
+      .box {
+        font-size: 16px;
+        border-radius: 4px;
+        border: 2px solid lightgray;
+        max-width: 8em;
+        padding: 24px;
+        height: 24px;
+        background-color: hsl(0, 0%, 98%);
+      }
+
+      .mb {
+        margin-bottom: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <ul class="list">
+        <li class="list-item">
+          <a href="../../index.html">Home</a>
+        </li>
+      </ul>
+    </header>
+    <div>
+      <h1>Instructions</h1>
+      <p>
+        Use the jQuery <code>height()</code> method to read the value of the
+        content height of the <code>.box</code> element.
+      </p>
+      <p>
+        Create a new <code>p</code> element with a text content of the height
+        value from the <code>height()</code> method.
+      </p>
+      <p>
+        Add the <code>p</code> element before the <code>.box</code> element when
+        the <code>Show height</code> button is clicked, only once. If the
+        element exists, it should just change the value of the
+        <code>p</code> element.
+      </p>
+      <p>
+        Each time the button is clicked you should add <code>20</code> to the
+        current height of the <code>.box</code> element.
+      </p>
+      <p>
+        The text content of the p element should be the value before it was
+        increased.
+      </p>
+      <p>Note that the method returns a number without the unit.</p>
+      <p>
+        The <code>height()</code> method returns a number that might be a float,
+        so you should use the <code>parseInt()</code> JavaScript method to
+        convert the value to a integer.
+      </p>
+    </div>
+    <div>
+      <hr />
+      <div class="ex-wrapper">
+        <button class="mb">Show height</button>
+        <div class="box">Card</div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Assembler School jQuery Intro</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <script defer src="./17-exercise.js"></script>
+    <style>
+      .ex-wrapper {
+        position: relative;
+      }
+
+      .img {
+        display: block;
+        border-radius: 8px;
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        left: 0px;
+      }
+
+      .mb {
+        margin-bottom: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <ul class="list">
+        <li class="list-item">
+          <a href="../../index.html">Home</a>
+        </li>
+      </ul>
+    </header>
+    <div>
+      <h1>Instructions</h1>
+      <p>
+        Use the jQuery <code>animate()</code> method to animate the width and
+        height of the <code>.img</code> element when the button is clicked.
+      </p>
+      <p>
+        The image’s <code>left</code> css position should also be animated to
+        move to the right.
+      </p>
+      <p>
+        The <code>animate()</code> method should animate to the following
+        options:
+      </p>
+      <ul>
+        <li><code>width: 20em</code></li>
+        <li><code>height: 16em</code></li>
+        <li><code>left: 40px</code></li>
+        <li><code>duration: 300ms</code></li>
+      </ul>
+    </div>
+    <div>
+      <hr />
+      <div class="ex-wrapper">
+        <button class="mb">Animate image</button>
+        <img src="../img/img.jpeg" class="img" />
+      </div>
+    </div>
+  </body>
+</html>
