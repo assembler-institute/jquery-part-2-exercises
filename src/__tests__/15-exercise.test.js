@@ -48,7 +48,7 @@ describe("15-exercise", () => {
 
     expect($(".box").css("height")).toBe("200px");
 
-    expect(animateSpy).toBeCalledTimes(1);
+    expect(animateSpy).toHaveBeenCalledTimes(1);
 
     expect(animateSpy).toBeCalledWith(
       expect.objectContaining({

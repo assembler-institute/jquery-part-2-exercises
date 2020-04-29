@@ -47,7 +47,7 @@ describe("19-exercise", () => {
 
     $("button").trigger("click");
 
-    expect(animateSpy).toBeCalledTimes(3);
+    expect(animateSpy).toHaveBeenCalledTimes(3);
 
     expect(animateSpy).toBeCalledWith(
       expect.objectContaining({ width: "24em" }),
