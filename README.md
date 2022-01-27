@@ -1,13 +1,13 @@
-`#js` `#jquery` `#assembler-school` `#master-in-software-engineering`
+`#js` `#jquery` `#assembler-institute` `#master-in-software-development`
 
-# Assembler School: jQuery Part 2 Exercises - CSS Manipulation & Animations
+# Assembler Institute: jQuery Part 2 Exercises - CSS Manipulation & Animations
 
 ## Getting Started
 
 First, you will need to clone the repo:
 
 ```bash
-$ git clone https://github.com/assembler-school/jquery-part-2-exercises
+$ git clone https://github.com/assembler-institute/jquery-part-2-exercises
 ```
 
 Then, you will have to install all the dependencies with npm:
